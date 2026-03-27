@@ -4,7 +4,7 @@ Ushbu loyiha diabetga oid ma'lumotlar to'plamini (dataset) tozalash, yetishmayot
 
 ---
 
-## 🚀 Loyihaning asosiy funksiyalari
+##  Loyihaning asosiy funksiyalari
 
 Loyihada ma'lumotlar bilan ishlashning to'liq sikli amalga oshirilgan:
 
@@ -15,13 +15,13 @@ Loyihada ma'lumotlar bilan ishlashning to'liq sikli amalga oshirilgan:
 
 ---
 
-## 🛠 Kerak bo'ladigan kutubxonalar
+##  Kerak bo'ladigan kutubxonalar
 * **Python 3.x**
 * **NumPy & Pandas:** Ma'lumotlarni qayta ishlash uchun.
 * **Matplotlib:** Grafiklar va vizuallashtirish uchun.
 * **Scikit-learn:** PCA algoritmi uchun.
 ---
-## 📊 Kod qanday ishlaydi?
+##  Kod qanday ishlaydi?
 
 ### 1. Ma'lumotlarni tozalash (Imputation)
 Kod har bir nol qiymatga ega bo'lgan qator uchun boshqa barcha qatorlar bilan Evklid masofasini hisoblaydi va eng yaqin K ta qo'shnini topadi:
@@ -36,13 +36,13 @@ Skriptni ishga tushurish:
 -------------------------------------------------------------------
 🩺 Diabetes Data Preprocessing & Analysis (KNN Imputation & PCA)This project is designed to clean, impute missing values, and visualize a diabetes-related dataset. The primary focus is on enhancing data quality and performing dimensionality reduction to better understand the underlying patterns.
 
-🚀 Key Features
+  Key Features
 The project implements a full data processing pipeline:
   KNN Imputation: Instead of simply deleting rows with 0 values, the K-Nearest Neighbors algorithm is used to intelligently fill gaps with the mean of the most similar data points.
   Correlation Analysis: Calculates relationships between features to identify redundant or highly correlated columns that might hinder model performance.
   Outlier Detection: Uses the IQR (Interquartile Range) method to detect statistical anomalies and extreme values.
   PCA (Principal Component Analysis): Reduces the dataset from 8 dimensions down to 2 principal components for effective visualization using Matplotlib.
-🛠 Prerequisites:
+Prerequisites:
   Python 3.xNumPy & Pandas: For data manipulation.
   Matplotlib: For plotting and visualization.
   Scikit-learn: For the PCA algorithm.
